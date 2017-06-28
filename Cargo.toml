@@ -1,6 +1,6 @@
 [package]
 name = "osm-proto-rs"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Felix Schütt <felix.schuett@maps4print.com>"]
 build = "src/build.rs"
 
