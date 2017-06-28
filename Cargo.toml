@@ -7,7 +7,7 @@ build = "src/build.rs"
 description = "Prost-generated native Rust bindings for the OSM PBF file format"
 documentation = "https://docs.rs/osm-proto-rs"
 repository = "https://github.com/sharazam/osm-proto-rs"
-keywords = ["osm", "protobuf", "prost", "openstreetmap", "proto", "pbf"]
+keywords = ["osm", "protobuf", "openstreetmap", "proto", "pbf"]
 categories = ["encoding"]
 license = "MIT"
 
