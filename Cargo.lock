@@ -3,7 +3,7 @@ name = "osm-proto-rs"
 version = "0.1.0"
 dependencies = [
  "bytes 0.4.4 (registry+https://github.com/rust-lang/crates.io-index)",
- "prost 0.1.1 (git+https://github.com/danburkert/prost)",
+ "prost 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "prost-build 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "prost-derive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -286,15 +286,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "prost"
-version = "0.1.1"
-source = "git+https://github.com/danburkert/prost#5330c5d6305dff5378abbac9f4f25ae5f7841ac8"
-dependencies = [
- "byteorder 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "bytes 0.4.4 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "prost-build"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -526,7 +517,6 @@ dependencies = [
 "checksum pkg-config 0.3.9 (registry+https://github.com/rust-lang/crates.io-index)" = "3a8b4c6b8165cd1a1cd4b9b120978131389f64bdaf456435caa41e630edba903"
 "checksum podio 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)" = "e5422a1ee1bc57cc47ae717b0137314258138f38fd5f3cea083f43a9725383a0"
 "checksum prost 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "c995bf7ce65d8f98304bee0320528815744b7632e156526d5627b49853f25688"
-"checksum prost 0.1.1 (git+https://github.com/danburkert/prost)" = "<none>"
 "checksum prost-build 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "5d0f4e2f1f45e5b9955e97e2b708645ca2bb04797770ed5bb1cb029be3a571ab"
 "checksum prost-codegen 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "6174303003b2ced63fbe5020aa07c1008ae133299185c2508f3d0cd71ea53a52"
 "checksum prost-derive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "7a203840d9a4e159f39938d0e8985b9281cdf7f33fac1ccd4e12d54fd2a940f3"
