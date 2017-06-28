@@ -1,0 +1,20 @@
+[package]
+name = "osm-proto-rs"
+version = "0.1.0"
+authors = ["Felix Schütt <felix.schuett@maps4print.com>"]
+build = "src/build.rs"
+
+description = "Prost-generated native Rust bindings for the OSM PBF file format"
+documentation = "https://docs.rs/osm-proto-rs"
+repository = "https://github.com/sharazam/osm-proto-rs"
+keywords = ["osm", "protobuf", "prost", "openstreetmap", "proto", "pbf"]
+categories = ["encoding"]
+license = "MIT"
+
+[dependencies]
+prost = "0.1.0"
+prost-derive = "0.1.0"
+bytes = "0.4.4"
+
+[build-dependencies]
+prost-build = "0.1.0"
